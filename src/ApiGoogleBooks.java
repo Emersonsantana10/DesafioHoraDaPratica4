@@ -13,9 +13,7 @@ public class ApiGoogleBooks {
         System.out.println("Digite o titulo do livo que deseja consultar: ");
         var titulo = leitura.nextLine();
 
-        String url = "https://www.googleapis.com/books/v1/volumes?q=" + titulo + "&key=AIzaSyDwubyygJHkXK33tYfGSQxxQwRjpRXQlCw";
-
-        //chave api AIzaSyDwubyygJHkXK33tYfGSQxxQwRjpRXQlCw
+        String url = "https://www.googleapis.com/books/v1/volumes?q=" + titulo + "&key=";
 
         HttpClient client = HttpClient.newHttpClient();
 
